@@ -1,0 +1,1 @@
+Khung chat AI nằm trong Sidebar của LibreOffice Writer. Chỉ gửi văn bản khi người dùng chủ động chọn.

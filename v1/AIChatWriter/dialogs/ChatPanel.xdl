@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<!-- Bố cục ban đầu; vị trí/kích thước thật được tính lại bằng pixel khi Sidebar đổi cỡ (layout.py) -->
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script"
+            dlg:id="ChatPanel" dlg:left="0" dlg:top="0" dlg:width="160" dlg:height="300"
+            dlg:closeable="false" dlg:moveable="false" dlg:withtitlebar="false">
+  <dlg:bulletinboard>
+    <dlg:button   dlg:id="btnNewChat"  dlg:left="2"  dlg:top="2"   dlg:width="50"  dlg:height="14" dlg:value="Chat mới"/>
+    <dlg:button   dlg:id="btnSettings" dlg:left="54" dlg:top="2"   dlg:width="50"  dlg:height="14" dlg:value="Cài đặt"/>
+    <dlg:textfield dlg:id="txtHistory" dlg:left="2"  dlg:top="18"  dlg:width="156" dlg:height="200"
+                   dlg:multiline="true" dlg:readonly="true" dlg:vscroll="true"/>
+    <dlg:text     dlg:id="lblStatus"   dlg:left="2"  dlg:top="220" dlg:width="156" dlg:height="10" dlg:value=""/>
+    <dlg:textfield dlg:id="txtInput"   dlg:left="2"  dlg:top="232" dlg:width="156" dlg:height="40"
+                   dlg:multiline="true" dlg:vscroll="true"/>
+    <dlg:button   dlg:id="btnSend"     dlg:left="108" dlg:top="274" dlg:width="50" dlg:height="14" dlg:value="Gửi"/>
+  </dlg:bulletinboard>
+</dlg:window>
