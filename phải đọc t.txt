@@ -1,0 +1,10 @@
+Test giúp em
+yêu cầu
+Libre office
+link: https://www.libreoffice.org/download/
+Lấy key API: https://aistudio.google.com/api-keys
+cách cài key:
+B1 bấm vào cài đặt trong khung chat
+B2 Làm theo lời bên trong và bấm vào ô (Lưu và đóng)
+
+cảm ơn a =))
